@@ -40,12 +40,18 @@ body
 {
     text-transform: uppercase;
 }
+img
+{
+    width: 200px;
+    height: 30px;
+}
 
 @media (max-width: 600px)
 {
     .navbar ul
     {
         flex-wrap: wrap;
+        margin-top: 2%;
     }
     .navbar-toggle
     {
@@ -65,5 +71,10 @@ body
         text-align: center;
         text-transform: uppercase;
         margin-left: 0;
+    }
+    img
+    {
+        width: 200px;
+        height: 50px;
     }
 }

@@ -97,4 +97,8 @@ label
         width: 50%;
         cursor: pointer;
     }
+    h3
+    {
+        margin-top: 2%;
+    }
 }
